@@ -4,7 +4,7 @@ This application is designed to provide students with access to learning resourc
 
 **Walkthrough**
 
-<img src="MakoAppWalkthroughVideo.gif" alt"walkthrough"/>
+<img src="MakoAppWalkthroughVideo.gif" alt"walkthrough" />
 
 **Features:**
 
