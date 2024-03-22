@@ -5,7 +5,7 @@ This application is designed to provide students with access to learning resourc
 **Walkthrough**
 
 <img src="MakoAppWalkthroughVideo.gif" alt"walkthrough" />
-
+<img src='MakoAppWalkthroughVideo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough'/>
 **Features:**
 
 **Offline Access:** Access learning materials anytime, anywhere, without the need for an internet connection.
