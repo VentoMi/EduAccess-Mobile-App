@@ -1,0 +1,478 @@
+body {font-family: Arial, Helvetica, sans-serif;
+      overflow: auto;}
+
+@media only screen and (max-width: 721px)  {
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    scroll-behavior: smooth;
+}
+* {box-sizing: border-box;}
+html {background-image: url("../disPhotos/plantcrpm.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+overflow: auto;}
+.bg-img {
+  /* The image used */
+  background-image: url("../disPhotos/plant.jpg");
+  min-height: 450px;
+  min-width: 1000px;
+  transition: 2s;
+  /* transition-property: all;*/
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+  size: 10vw;
+  margin: -10px;
+}
+#top-text {font-size: 6vw;
+         color: #ffffff;
+         line-height: 1.4;
+         text-align: center;
+         font-family:calibri;
+         font-weight:430;
+         font-style:normal;   
+       top: 50px; 
+      }
+ 
+.centered {
+  position: absolute;
+  top: 50px;
+  left: 1px;
+  right: 1px;
+ bottom: 130px;
+}
+
+.coursecontent {position: absolute;
+  font-size: 25px;
+  text-align: center;
+  top:600px;
+  left: 10vw;
+  border-style: solid;
+  border-color: #b3b300;
+  border-radius: 25px;
+  scroll-behavior: smooth;
+  
+background-image: url("../disPhotos/plantcrpb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 50px;
+  width: 400px;
+  border-right-style: none;
+  border-top-right-radius: 0px;
+  border-bottom-style: none; 
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+
+ }
+
+#compass {position: absolute;
+  top: 100px;
+  left:158px;
+  align-content: center;
+  z-index: 1;
+}
+
+.bgmaths {position: absolute;
+  top:616px;
+  left: 10vw;
+  border-style: solid;
+  border-color: #b3b300;
+  border-radius: 25px;
+  scroll-behavior: smooth;
+  
+background-image: url("../disPhotos/plantcrpb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 100px;
+  width: 400px;
+  border-right-style: none;
+  border-top-right-radius: 0px;
+  z-index: -1;
+ }
+
+
+.chem {position: absolute;
+  font-size: 25px;
+  text-align: center;
+
+  top:706px;;
+  right: 10vw;
+  border-style: solid;
+  border-color: #b3b300;
+  border-radius: 25px;
+  scroll-behavior: smooth;
+  
+background-image: url("../disPhotos/plantcrpb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding : 50px;
+  width: 400px;
+  display: inline-block;
+  
+
+  border-left-style: none;
+  border-bottom-left-radius: 0px; 
+  border-top-right-radius: 0px;
+  border-top-style: none;
+  border-top-left-radius: 0px;
+}
+
+#testtube {position: absolute;
+  top: -40px;
+  right:170px;
+  align-content: center;
+  z-index: 1;}
+
+
+.bgchem {position: absolute;
+  top:600px;;
+  right: 10vw;
+  border-style: solid;
+  border-color: #b3b300;
+  border-radius: 25px;
+  scroll-behavior: smooth;
+  
+background-image: url("../disPhotos/plantcrpb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 100px;
+  width: 400px;
+  display: inline-block;
+  z-index: -1;
+
+  border-left-style: none;
+  border-bottom-left-radius: 0px;
+}
+
+/*.syllabus {position: absolute;
+  font-size: 25px;
+  text-align: center;
+  top:0px;
+   left: -10px;
+  right: -10px;
+  border-style: solid;
+  border-color: #b3b300;
+  border-radius: 25px;
+  scroll-behavior: smooth;
+  background: lightgrey;
+  padding : 100px;
+  width: 500px;
+  display: inline-block;
+
+  border-left-style: none;
+  border-bottom-left-radius: 0px; 
+  border-top-right-radius: 0px;
+  border-top-style: none;
+} */
+
+#atom1 {position: absolute;
+  top: 20px;
+  left:20px;
+  align-content: center;
+  z-index: 1;
+}
+
+#atom2 {position: absolute;
+  top: 80px;
+  left:120px;
+  align-content: center;
+  z-index: 1;
+}
+
+#atom3 {position: absolute;
+  top: 20px;
+  left:300px;
+  align-content: center;
+  z-index: 1;
+}
+
+#atom4 {position: absolute;
+  top: 20px;
+  left:420px;
+  align-content: center;
+  z-index: 1;
+}
+
+/*#atom5 {position: absolute;
+  top: 20px;
+  left:580px;
+  align-content: center;
+  z-index: 1;
+}
+
+#atom6 {position: absolute;
+  top: 100px;
+  left:720px;
+  align-content: center;
+  z-index: 1;
+}*/
+
+#atom7 {position: absolute;
+  top: 140px;
+  left:20px;
+  align-content: center;
+  z-index: 1;
+}
+
+/* #atom8 {position: absolute;
+  top: 140px;
+  left:160px;
+  align-content: center;
+  z-index: 1;
+} */
+
+#atom9 {position: absolute;
+  top: 140px;
+  left:300px;
+  align-content: center;
+  z-index: 1;
+}
+
+#atom10 {position: absolute;
+  top: 140px;
+  left:420px;
+  align-content: center;
+  z-index: 1;
+}
+
+
+#atom {position: absolute;
+  top: 20px;
+  right:350px;
+  align-content: center;
+  z-index: 1;
+}
+
+#atom-1 {position: absolute;
+  top: 80px;
+  right:150px;
+  align-content: center;
+  
+}
+
+#atom-2 {position: absolute;
+  top: 20px;
+  right:50px;
+  align-content: center;
+  z-index: 1;
+}
+
+/* #atom-3 {position: absolute;
+  top: 140px;
+  right:200px;
+  align-content: center;
+  z-index: 1;
+} */
+
+#atom-4 {position: absolute;
+  top: 140px;
+  right:350px;
+  align-content: center;
+  z-index: 1;
+}
+
+#atom-5 {position: absolute;
+  top: 140px;
+  right:50px;
+  align-content: center;
+  z-index: 1;
+}
+
+#atom-a {position: absolute;
+  top: 140px;
+  right:230px;
+  align-content: center;
+  z-index: 1;
+}
+
+#atom-b {position: absolute;
+  top: 20px;
+  right:230px;
+  align-content: center;
+  z-index: 1;
+}
+
+.bgsyllabus {position: absolute;
+  font-size: 25px;
+  text-align: center;
+  top:900px;
+  right: 10vw;
+  left: 10vw;
+  border-style: solid;
+  border-color: #b3b300;
+  border-radius: 25px;
+  scroll-behavior: smooth;
+  
+background-image: url("../disPhotos/plantcrpb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* background-image: url("../disPhotos/ppaersres.png"); */
+  padding: 100px; 
+  width: 600px;
+  height: 235px;
+  display: inline-block;
+  z-index: -1;
+}
+
+/*.syllabus {position: absolute;
+  background-image: url("../disPhotos/ppaersres.png");
+  font-size: 25px;
+  text-align: center;
+  top:900px;
+  right: 10vw;
+  border-style: solid;
+  border-color: #b3b300;
+  border-radius: 25px;
+  scroll-behavior: smooth;
+  
+background-image: url("../disPhotos/plantcrpp.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 100px;
+  width: 450px;
+  display: inline-block;
+  border-top-left-radius: 0px;
+  border-left-style: none;
+  border-bottom-left-radius: 0px;
+}*/
+
+#pp {position: absolute;
+  background-image: url("../disPhotos/plantcrp.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;z-index: 1;
+text-align: center;
+right: 128px;
+}
+
+#ws {position: absolute;
+  background-image: url("../disPhotos/plantcrp.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;z-index: 1;
+text-align: left;
+left: 128px;
+}
+
+.top-left {
+  position: absolute;
+  top: 32px;
+  left: 16px;
+}
+
+
+.top-right {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+
+#logo {width: 56px;
+height: 56px;
+transition-delay: 1s;
+ }
+
+.theme {background-color: #b3b300;
+  height: 30px;}
+
+
+
+.bg {background-color: green;
+  position: relative;
+  height: 500px;}
+  /* unvisited link */
+
+
+
+
+a#mink:link {color: #b3b300;}
+/* visited link */
+a#mink:visited {
+  color: #b3b300;
+}
+
+a:visited {
+  color: #b3b300;
+}
+
+/* mouse over link */
+a#mink:hover {
+  color: #b3b300;
+}
+a:hover {color: grey;}
+/* selected link */
+a:active {
+  color: darkgrey;
+}
+a#mink:active {
+  color: #b3b300;
+}
+
+
+a:link {color: grey;}
+a:link {text-decoration: none;}
+a#mink:link {text-decoration: none;}
+a:hover {
+  text-decoration: none;
+}
+
+.navbar {position: absolute;
+  left: 16px;
+  overflow: hidden;
+  background-color: transparent;
+  z-index: 1
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: brown;
+  text-align: center;
+  padding: 16px 7px;
+  text-decoration: none;
+
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: brown;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropbtn{padding: 5px 5px;}
+
+.dropdown:hover  {
+  background-color: #b3b300;
+}
+.dropbtn:active {
+  color: lightblue;
+}
+.dropdown:hover {
+  display: block;
+}
+}

@@ -1,0 +1,240 @@
+@media only screen and (max-width: 720px )  {
+  
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    scroll-behavior: smooth; 
+}
+* {box-sizing: border-box;}
+html {background-color: darkgrey;
+overflow: auto;}
+.bg-img {
+  /* The image used */
+  background-image: url("../img/Makomborero_Header_6.jpg");
+  min-height: 300px;
+  min-width: 1000px;
+
+  /* transition-property: all;*/
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 2s;
+  /* Needed to position the navbar */
+  position: relative;
+  size: 10vw;
+  margin: -10px;
+}
+
+#top-text {font-size: 8vw;
+         color: #ffffff;
+         line-height: 1.4;
+         text-align: center;
+         font-family:calibri;
+         font-weight:230;
+         font-style:normal;   
+      }
+ 
+.centered {
+  position: absolute;
+  top: 50px;
+  left: 1px;
+  right: 1px;
+ bottom: 130px;
+}
+
+.maths {position: absolute;
+  font-size: 30px;
+  text-align: left;
+  top:425px;
+  left: 30px;
+  transition: 1s;
+  border-style: solid;
+  border-color: #b3b300;
+  border-radius: 25px;
+  scroll-behavior: smooth;
+  background: lightgrey;
+  padding: 50px;
+  width: 362px;
+ }
+
+#compass {position: absolute;
+  top: 35px;
+  left:240px;
+  align-content: center;
+  z-index: 1;
+}
+
+.chem {position: absolute;
+  font-size: 30px;
+  text-align: left;
+  
+  top:600px;
+  left: 6.5vw;
+  transition: 1s;
+
+  border-style: solid;
+  border-color: #b3b300;
+  border-radius: 25px;
+  scroll-behavior: smooth;
+  background: lightgrey;
+  padding : 50px;
+  width: 362px;
+  display: inline-block;
+}
+
+#testtube {position: absolute;
+  top: 30px;
+  right:55px;
+  align-content: center;
+  z-index: 1;}
+
+.bio {position: absolute;
+  font-size: 30px;
+  text-align: left;
+  top:775px;
+  left:6.5vw;
+  transition: 1s;
+
+  border-style: solid;
+  border-color: #b3b300;
+  border-radius: 25px;
+  scroll-behavior: smooth;
+  background: lightgrey;
+  padding: 50px;
+  width: 362px;
+ }
+
+#dna {position: absolute;
+  top: 813px;
+  right:65px;
+  align-content: center;
+  z-index: 1;}
+
+.physics {position: absolute;
+  font-size: 30px;
+  text-align: left;
+  vertical-align: top;
+  transition: 1s;
+
+  top:950px;
+  left: 6.5vw;
+  border-style: solid;
+  border-color: #b3b300;
+  border-radius: 25px;
+  scroll-behavior: smooth;
+  background: lightgrey;
+  padding : 50px;
+  width: 362px;
+  display: inline-block;
+}
+
+#atom {position: absolute;
+  top: 988px;
+  right:85px;
+  align-content: center;
+  z-index: 1;
+}
+
+
+.top-left {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+
+#logo {width: 60px;
+height: 60px;
+transition-delay: 1s;
+ }
+
+.theme {background-color: #b3b300;
+  height: 30px;}
+
+
+
+.bg {background-color: green;
+  position: relative;
+  height: 500px;}
+  /* unvisited link */
+
+
+
+
+a#mink:link {color: white;}
+/* visited link */
+a#mink:visited {
+  color: #ffffff;
+}
+
+a:visited {
+  color: #b3b300;
+}
+
+/* mouse over link */
+a#mink:hover {
+  color: #b3b300;
+}
+a:hover {color: grey;}
+/* selected link */
+a:active {
+  color: darkgrey;
+}
+
+
+a:link {color: grey;}
+a:link {text-decoration: none;}
+a#mink:link {text-decoration: none;}
+a:hover {
+  text-decoration: none;
+}
+
+.space {position: absolute;
+width: -1262;
+left: 0vw;
+right: 0vw;
+height: 175px;
+top: 1225px;
+
+border-style: solid;
+border-color: #b3b300;
+border-top-width: 10px;
+
+padding: 0px;
+margin: -1.5px;
+background-image: url("../img/Makomborero_Header_6.jpg");
+  transition: 1s;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: absolute;
+  border-right-style: none;
+  border-left-style: none;
+  border-bottom-style: none;
+  border-top-width: 10px; 
+
+}
+#bottom-text {color: lightgrey;
+font-size: 27px;
+text-shadow: black;
+text-align: center;
+bottom:10px;}
+
+#mandela {font-size: 25px;
+text-align: right;
+margin: 13px;}
+} 
