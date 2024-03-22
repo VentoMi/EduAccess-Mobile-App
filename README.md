@@ -2,6 +2,10 @@
 
 This application is designed to provide students with access to learning resources even when they don't have an internet connection. Whether you're in a remote area with limited connectivity or just prefer studying offline, our app has you covered.
 
+**Walkthrough**
+
+<img src="MakoAppWalkthroughVideo.gif" alt"walkthrough"/>
+
 **Features:**
 
 **Offline Access:** Access learning materials anytime, anywhere, without the need for an internet connection.
